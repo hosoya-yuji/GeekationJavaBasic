@@ -14,6 +14,8 @@ public class Variables {
 		System.out.println("私の好きな少数は" + num2 + "です。");
 		
 		
+		
+		
 
 	}
 
