@@ -23,12 +23,6 @@ public class ComparisonLogicalOperators {
 		boolean hasPermission = false;
 		boolean notHasPermission = !hasPermission;
 		System.out.println(notHasPermission);
-		
-<<<<<<< HEAD
-		
-=======
-
->>>>>>> refs/heads/main
 	}
 
 }
