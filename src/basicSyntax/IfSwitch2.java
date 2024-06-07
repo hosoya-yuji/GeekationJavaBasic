@@ -4,11 +4,11 @@ public class IfSwitch2 {
 
 	public static void main(String[] args) {
 		// TODO 自動生成されたメソッド・スタブ
-		int num =6;
+		int num = 6;
 		
-		if (num % 2 ==0) {
+		if (num % 2 == 0) {
 			System.out.println("2の倍数です。");
-		} else if (num % 3 ==0) {
+		} else if (num % 3 == 0) {
 			System.out.println("3の倍数です。");
 		} else {
 			System.out.println("どちらでもありません。");
