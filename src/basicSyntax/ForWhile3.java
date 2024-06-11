@@ -23,7 +23,7 @@ public class ForWhile3 {
 			if (lung == "Java") {
 				System.out.println("現在学習中の言語はJavaです。");	
 				continue;
-			}if (lung == "HTML") {
+			} if (lung == "HTML") {
 				System.out.println("HTMLはプログラミング言語ではありません。");
 				break;
 			}
