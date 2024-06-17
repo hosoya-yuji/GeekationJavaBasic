@@ -8,25 +8,21 @@ public class GeekIntroduction {
         System.out.println("身長は" + height + "でごわす。");
     }
 
-
     public void specialSkill(int num1, int num2) {
         if (num1 < 1 || num2 < 1) {
             System.out.println("num1とnum2は0より大きい値にしてください。");
             return;  
         }
 
-
         if (num1 >= num2) {
             System.out.println("num2はnum1より大きい値にしてください。");
             return; 
         }
-
  
         if (num1 > 300 || num2 > 300) {
             System.out.println("num1とnum2は300以下にしてください。");
             return;  
         }
-
 
         for (int i = num1; i <= num2; i++) {
             if (i % 3 == 0 && i % 5 == 0) {
